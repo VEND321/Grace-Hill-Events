@@ -260,14 +260,14 @@
             z-index: 1000;
             padding: 25px 0;
             transition: var(--transition);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(0px);
             -webkit-backdrop-filter: blur(10px);
-            background: rgba(10, 10, 10, 0.7);
-            border-bottom: 1px solid rgba(248, 194, 156, 0.1);
+            background: rgba(10, 10, 10, 0);
+            border-bottom: 1px solid rgba(248, 194, 156, 0);
         }
 
         header.scrolled {
-            background: rgba(10, 10, 10, 0.95);
+            background: rgba(0, 0, 0, 0);
             box-shadow: var(--shadow);
             padding: 15px 0;
             backdrop-filter: blur(15px);
